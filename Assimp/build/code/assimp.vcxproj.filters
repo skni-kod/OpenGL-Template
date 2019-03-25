@@ -1,0 +1,1695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\CInterfaceIOWrapper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ScaleProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\StepExporter.cpp">
+      <Filter>Step</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AMFImporter.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AMFImporter_Geometry.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AMFImporter_Material.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AMFImporter_Postprocess.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\3DSExporter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AssbinExporter.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AssxmlExporter.cpp">
+      <Filter>ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ColladaExporter.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IRRMeshLoader.cpp">
+      <Filter>IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ObjExporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OpenGEXExporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\PlyExporter.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCReaderGen1.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCReaderGen2.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\STEPFileReader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\STEPFileEncoding.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Q3BSPZipArchive.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SIBImporter.cpp">
+      <Filter>SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\STLExporter.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\XFileExporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DExporter.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Geometry2D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Geometry3D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Group.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Light.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Metadata.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Networking.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Postprocess.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Rendering.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Shape.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Texturing.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FIReader.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DVocabulary.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTFImporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTFExporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTF2Importer.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTF2Exporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\D3MFImporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\D3MFExporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\D3MFOpcPackage.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MMDImporter.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MMDPmxParser.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\fast_atof.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\qnan.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BaseImporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ByteSwapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MemoryIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ParsingUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\StreamReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\StreamWriter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\StringComparison.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\StringUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SGSpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\GenericProperty.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SkeletonMeshBuilder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ScaleProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SmoothingGroups.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\StandardShapes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\RemoveComments.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Subdivision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LineSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\TinyFormatter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LogAux.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Bitmap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\XMLTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IOStreamBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\CreateAnimMesh.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\StepExporter.h">
+      <Filter>Step</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AMFImporter.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AMFImporter_Macro.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AMFImporter_Node.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\3DSExporter.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AssbinExporter.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\AssxmlExporter.h">
+      <Filter>ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ColladaExporter.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IRRMeshLoader.h">
+      <Filter>IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\ObjExporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OpenGEXExporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\PlyExporter.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCReaderGen.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\STEPFile.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\STEPFileReader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\STEPFileEncoding.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\Q3BSPZipArchive.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SIBImporter.h">
+      <Filter>SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\STLExporter.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\XFileExporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DExporter.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Macro.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\X3DImporter_Node.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\FIReader.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTFAsset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTFAssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTFAssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTFImporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTFExporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTF2Asset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTF2Asset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTF2AssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTF2AssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTF2Importer.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\glTF2Exporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\D3MFImporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\D3MFExporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\D3MFOpcPackage.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\3MFXmlTags.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MMDCpp14.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MMDImporter.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MMDPmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MMDPmxParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\MMDVmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\DefaultIOStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\DefaultIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\SceneCombiner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3D">
+      <UniqueIdentifier>{31FD79B3-10E8-3414-9B9B-CCB7A5740704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{B3874D12-7A6E-3CC6-9A44-3A38508C4CFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF">
+      <UniqueIdentifier>{5C2E9B4D-870B-3C25-B49F-30BEB3CFCD4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{503BE08B-5E4C-3F81-A318-DA717314C1ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AMF">
+      <UniqueIdentifier>{C5881CCD-D919-300F-B502-714357F9EC47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{538F56E4-13B3-301A-9297-FB2D3C80CD90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{AD759221-969A-390E-9945-2F8D85134C21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML">
+      <UniqueIdentifier>{9FA63706-9566-3B09-ACA9-A0D48E181100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{D1F34516-42E1-354D-BCAC-31D9CF1202F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{D8B7F6D5-64CC-3B6E-A76A-738671D919DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{F4F37F68-E66C-3391-B700-B71FCF9945A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{8B41E352-21EE-3554-9DF7-E5A4EED44A84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{A5519CF5-ACC0-3494-A6FD-F950CCF73E09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{D82EACD7-FDD6-3EA3-B014-180000D09C5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{DA5CD509-D5D9-3F26-BBC0-68285BF616EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{7061348E-E430-3994-949A-A0A2266F6517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{BD3EA5D4-425C-32CF-9BAC-52803D90A403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{88D80563-033D-31AE-9F20-8BB13555082E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{98F22D59-AA3E-31E3-999B-A102B443B45B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{2C70E068-7D05-38DB-960D-D84D35335CE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{60297301-8007-3B0B-A099-35101DC4FBBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{0E358E3D-DDA4-3C62-9B9D-1C4B6544998B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DD2A84AB-DF46-3F11-A332-22C5E359D056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{C8B27968-DE2A-3CE7-8790-696D6AD2E87A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{0A3393E3-73AC-3B65-957C-E8B6459F68D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRRMESH">
+      <UniqueIdentifier>{C14546D0-2331-3C7C-A06E-B378CC8B16B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{67D20C53-DC11-34E2-BCDA-6E80D24900B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{F28C0A05-E538-3D10-8870-722054E34307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{E84122B8-BD66-3CB7-86B6-10700E2A744D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{FD55A14B-28D0-3E10-9116-91F0F95E0837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{CDA8E520-CDF2-355A-B832-2DE2BBA795A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{C52D41C1-CCED-31FF-A9A3-925AD8D7D7C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{90AC5E26-C6EE-3546-A739-0FBEA79B400B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{A5402921-D6BA-3ACA-9142-ABDB9829DB7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{E652C8FB-091E-3348-96A8-8C4195A36073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMD">
+      <UniqueIdentifier>{246BD999-349A-3456-9CD4-571B9E737495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{A4C20701-4909-3763-8729-921AF0AFC988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{046CC4EE-ECA9-329C-AC7D-08C16842FBDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{DA807790-885B-3066-B52E-FD0E22DE1870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{D6612495-D8E6-3A17-AFE3-498B9885A05A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{3C3468B9-E9B4-341F-B47B-C92FF0432C66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{81EB2844-D10F-332C-87B7-356A550C0D18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{231B1819-47E1-3C83-B98F-26F6AFD4ED1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{1EF8BBDD-146B-3B4C-BCCB-F4094180CAB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{85F2CD3C-D146-3188-93E7-3001ECB57F91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{FB6A03B8-609C-3E4C-B003-2AD0C4C7A089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{03297154-4117-3AB2-96B7-A02F9CBAF876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{2AEC35F7-98D2-3942-81AA-C0369E257C08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{6A4BD828-FDB8-3D6E-BC59-525AED163D4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{7C4441F1-6128-367C-A71D-13178B682F40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIB">
+      <UniqueIdentifier>{DC640BD9-0F54-36FF-9B48-72993D4E4D08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{F78E691D-4868-39DA-AFE8-DB4D8A9B591C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{929DEA4A-6DCC-3891-BA18-1EC02DDD616B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BBC2EFCB-9040-300B-9321-4FFAF9003B70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Step">
+      <UniqueIdentifier>{6949A305-841B-3472-8B68-053BC1B88A05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{F402E0C1-2852-32E7-834C-FF925A3A9B58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{AD336468-EF93-37F0-BF82-16438A78F5A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D">
+      <UniqueIdentifier>{81545886-3FBC-3383-865A-3D961C9A0D81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{561166A2-732E-33F2-8588-CF372DE4FDA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="open3dgc">
+      <UniqueIdentifier>{3790E626-2ADD-3BE9-BCEF-43D8B5871363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openddl_parser">
+      <UniqueIdentifier>{A6657BA4-F8CF-3C12-ADAD-115E017F4961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{3BD3551B-6502-3A36-A0B1-25FB405E995B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{627D29AC-DF5E-3861-B69B-3CEC547889C8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Umi.cpp" />
+    <ClCompile Include="TestGame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestGame.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{d300282c-861d-497b-a0a8-757e2c0b4ca1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

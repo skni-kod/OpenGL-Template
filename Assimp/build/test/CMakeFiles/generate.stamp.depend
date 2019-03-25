@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+E:/Program Files/CMake/share/cmake-3.12/Modules/CTest.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CTestTargets.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CTestUseLaunchers.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/DartConfiguration.tcl.in
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/test/CMakeLists.txt

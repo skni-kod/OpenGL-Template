@@ -1,0 +1,42 @@
+# CMake generation dependency list for this directory.
+E:/Program Files/CMake/share/cmake-3.12/Modules/CMakeCInformation.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CMakeCXXInformation.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CMakeCommonLanguageInclude.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CMakeGenericSystem.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CMakeInitializeConfigs.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CMakeLanguageInformation.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CMakeRCInformation.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CMakeSystemSpecificInformation.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CMakeSystemSpecificInitialize.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CheckFunctionExists.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CheckIncludeFile.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CheckIncludeFileCXX.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CheckTypeSize.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/Compiler/MSVC-C.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/Compiler/MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/FindOpenGL.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/FindPackageMessage.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/FindPkgConfig.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC-C.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/Platform/WindowsPaths.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/CMakeLists.txt
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/assimp-config-version.cmake.in
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/assimp-config.cmake.in
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/assimp.pc.in
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/CMakeFiles/3.12.3/CMakeCCompiler.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/CMakeFiles/3.12.3/CMakeRCCompiler.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/CMakeFiles/3.12.3/CMakeSystem.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/cmake-modules/FindDevIL.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/cmake-modules/FindDirectX.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/cmake-modules/FindPkgMacros.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/cmake-modules/FindZLIB.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/cmake-modules/PrecompiledHeader.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/cmake-modules/cmake_uninstall.cmake.in
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/include/assimp/config.h.in
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/revision.h.in

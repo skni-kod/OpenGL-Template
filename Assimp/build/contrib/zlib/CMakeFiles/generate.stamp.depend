@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+E:/Program Files/CMake/share/cmake-3.12/Modules/CheckCSourceCompiles.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CheckFunctionExists.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CheckIncludeFile.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CheckIncludeFileCXX.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/CheckTypeSize.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/contrib/zlib/CMakeLists.txt
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/contrib/zlib/zconf.h.cmakein
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/contrib/zlib/zlib.pc.cmakein

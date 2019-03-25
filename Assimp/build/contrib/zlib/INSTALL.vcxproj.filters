@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\CMakeFiles\618f7449cd5d569b090761578ce07eda\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{209901BD-7E45-3032-9D27-ADB62541B0C2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B2D6E5E6-7E2D-33A4-A451-A4B754099462}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>assimp_viewer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\tools\assimp_view\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">assimp_viewer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">assimp_viewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\tools\assimp_view\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">assimp_viewer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">assimp_viewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\tools\assimp_view\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">assimp_viewer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">assimp_viewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\tools\assimp_view\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">assimp_viewer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">assimp_viewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/code/Debug/assimp-vc140-mt.dll E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\code\Debug\assimp-vc140-mt.lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib;comctl32.lib;winmm.lib;..\..\contrib\zlib\Debug\zlibstaticd.lib;..\..\contrib\irrXML\Debug\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build;E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/Debug/assimp_viewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/Debug/assimp_viewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/code/Release/assimp-vc140-mt.dll E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\code\Release\assimp-vc140-mt.lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib;comctl32.lib;winmm.lib;..\..\contrib\zlib\Release\zlibstatic.lib;..\..\contrib\irrXML\Release\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build;E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/Release/assimp_viewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/Release/assimp_viewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/code/MinSizeRel/assimp-vc140-mt.dll E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\code\MinSizeRel\assimp-vc140-mt.lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib;comctl32.lib;winmm.lib;..\..\contrib\zlib\MinSizeRel\zlibstatic.lib;..\..\contrib\irrXML\MinSizeRel\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build;E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/MinSizeRel/assimp_viewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/MinSizeRel/assimp_viewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\.;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\include;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\code;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/code/RelWithDebInfo/assimp-vc140-mt.dll E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\code\RelWithDebInfo\assimp-vc140-mt.lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib;comctl32.lib;winmm.lib;..\..\contrib\zlib\RelWithDebInfo\zlibstatic.lib;..\..\contrib\irrXML\RelWithDebInfo\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build;E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/RelWithDebInfo/assimp_viewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/RelWithDebInfo/assimp_viewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/tools/assimp_view/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp -BE:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build --check-stamp-file E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/tools/assimp_view/CMakeLists.txt;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\cmake-modules\FindDirectX.cmake;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\cmake-modules\FindPkgMacros.cmake;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\CMakeLists.txt;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\tools\assimp_view\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/tools/assimp_view/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp -BE:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build --check-stamp-file E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/tools/assimp_view/CMakeLists.txt;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\cmake-modules\FindDirectX.cmake;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\cmake-modules\FindPkgMacros.cmake;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\CMakeLists.txt;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\tools\assimp_view\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/tools/assimp_view/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp -BE:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build --check-stamp-file E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/tools/assimp_view/CMakeLists.txt;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\cmake-modules\FindDirectX.cmake;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\cmake-modules\FindPkgMacros.cmake;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\CMakeLists.txt;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\tools\assimp_view\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/tools/assimp_view/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp -BE:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build --check-stamp-file E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/build/tools/assimp_view/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/tools/assimp_view/CMakeLists.txt;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\cmake-modules\FindDirectX.cmake;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\cmake-modules\FindPkgMacros.cmake;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\CMakeLists.txt;E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\tools\assimp_view\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\AnimEvaluator.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\Background.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\Display.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\HelpDialog.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\Input.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\LogDisplay.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\LogWindow.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\Material.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\MeshRenderer.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\MessageProc.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\Normals.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\SceneAnimator.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\Shaders.cpp" />
+    <ClInclude Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\assimp_view.h" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\assimp_view.cpp" />
+    <ClCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\stdafx.cpp" />
+    <ResourceCompile Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\assimp_view.rc" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\banner.bmp" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\banner_pure.bmp" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\base_anim.bmp" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\base_display.bmp" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\base_inter.bmp" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\base_rendering.bmp" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\base_stats.bmp" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\fx.bmp" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\n.bmp" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\root.bmp" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\tx.bmp" />
+    <None Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\tools\assimp_view\txi.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\ZERO_CHECK.vcxproj">
+      <Project>{8600FF8E-6FA8-372F-B7A9-3FAF4E550466}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{C6BF716A-00D5-3454-8A34-3B636B29FA3A}</Project>
+      <Name>IrrXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\code\assimp.vcxproj">
+      <Project>{E35EC2BB-1514-3FBE-85A3-54CE036846A1}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\C++\SKNI_KOD_OGL_TEMPLATE\Assimp\build\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{D26B257C-6931-3711-BA47-D009610B2333}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

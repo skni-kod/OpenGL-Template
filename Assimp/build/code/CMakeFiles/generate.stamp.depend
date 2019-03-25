@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+E:/Program Files/CMake/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files/CMake/share/cmake-3.12/Modules/FindPackageMessage.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/cmake-modules/FindRT.cmake
+E:/Projects/C++/SKNI_KOD_OGL_TEMPLATE/Assimp/code/CMakeLists.txt

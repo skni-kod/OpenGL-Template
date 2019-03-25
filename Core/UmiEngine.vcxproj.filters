@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveVisual.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualObject.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp" />
+    <ClCompile Include="LightManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveVisual.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualObject.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Header files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Header files\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{0819da2d-4b92-438c-9090-9a3f10736a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{724c7875-2dac-4660-b7e5-5c802075e168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Light">
+      <UniqueIdentifier>{19648e4f-5d6f-4728-82ce-9250b511a59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Managers">
+      <UniqueIdentifier>{2352a5d4-e411-4a11-9fe0-8ae6b15c0e5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
