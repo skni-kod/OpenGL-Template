@@ -24,13 +24,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 
-!Libs/glfw/lib
-!Libs/glfw/lib/*
-!Libs/glfw/lib/*/*
+!Libs/*/*/lib/*
 
-!Libs/glfw/bin
-!Libs/glfw/bin/*
-!Libs/glfw/bin/*/*
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
