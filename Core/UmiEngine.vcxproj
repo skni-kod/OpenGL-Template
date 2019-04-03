@@ -40,13 +40,13 @@
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -76,12 +76,18 @@
     <GlfwLinkage>
     </GlfwLinkage>
     <Linkage-unofficial-flayan-glew>static</Linkage-unofficial-flayan-glew>
+    <TargetName>$(ProjectName)_d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>..\Libs\DevIL\1.8.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>..\Libs\DevIL\1.8.0\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\Libs\Assimp\4.1.0\include;..\Libs\DevIL\1.8.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Libs\Assimp\4.1.0\lib\x86;..\Libs\DevIL\1.8.0\lib\x86;$(LibraryPath)</LibraryPath>
     <GlfwLinkage>static</GlfwLinkage>
     <Linkage-unofficial-flayan-glew>static</Linkage-unofficial-flayan-glew>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Linkage-unofficial-flayan-glew>static</Linkage-unofficial-flayan-glew>
+    <IncludePath>..\Libs\DevIL\1.8.0\include;..\Libs\Assimp\4.1.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Libs\DevIL\1.8.0\lib\x64;..\Libs\Assimp\4.1.0\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -93,6 +99,10 @@
     <Lib>
       <AdditionalDependencies>opengl32.lib;devil.lib;ilu.lib;ilut.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)Libs\$(ProjectName)\x86\$(TargetName).lib"</Command>
+      <Message>Copy built Core library to Libs directory.</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -116,8 +126,14 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;libglew32d.lib;devil.lib;ilu.lib;ilut.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;devil.lib;ilu.lib;ilut.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)Libs\$(ProjectName)\x86\$(TargetName).lib"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy built Core library to Libs directory.</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>

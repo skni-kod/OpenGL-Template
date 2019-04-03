@@ -78,6 +78,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>..\Core;..\Libs\Assimp\4.1.0\include;..\Libs\DevIL\1.8.0\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\Release;$(LibraryPath)</LibraryPath>
+    <Linkage-unofficial-flayan-glew>static</Linkage-unofficial-flayan-glew>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -87,11 +88,16 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Core_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>
-      </Command>
+      <Command>copy /Y "$(SolutionDir)Libs\DevIL\1.8.0\lib\x86\DevIL.dll" "$(SolutionDir)$(Configuration)\DevIL.dll"
+copy /Y "$(SolutionDir)Libs\DevIL\1.8.0\lib\x86\ILU.dll" "$(SolutionDir)$(Configuration)\ILU.dll"
+copy /Y "$(SolutionDir)Libs\DevIL\1.8.0\lib\x86\ILUT.dll" "$(SolutionDir)$(Configuration)\ILUT.dll"
+copy /Y "$(SolutionDir)Libs\Assimp\4.1.0\lib\x86\assimp-vc140-mt.dll" "$(SolutionDir)$(Configuration)\assimp-vc140-mt.dl"
+
+xcopy /Y /S "$(ProjectDir)shaders" "$(SolutionDir)$(Configuration)\shaders\"
+xcopy /Y /S "$(ProjectDir)assets" "$(SolutionDir)$(Configuration)\assets\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -116,6 +122,15 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)Libs\DevIL\1.8.0\lib\x86\DevIL.dll" "$(SolutionDir)$(Configuration)\DevIL.dll"
+copy /Y "$(SolutionDir)Libs\DevIL\1.8.0\lib\x86\ILU.dll" "$(SolutionDir)$(Configuration)\ILU.dll"
+copy /Y "$(SolutionDir)Libs\DevIL\1.8.0\lib\x86\ILUT.dll" "$(SolutionDir)$(Configuration)\ILUT.dll"
+copy /Y "$(SolutionDir)Libs\Assimp\4.1.0\lib\x86\assimp-vc140-mt.dll" "$(SolutionDir)$(Configuration)\assimp-vc140-mt.dl"
+
+xcopy /Y /S "$(ProjectDir)shaders" "$(SolutionDir)$(Configuration)\shaders\"
+xcopy /Y /S "$(ProjectDir)assets" "$(SolutionDir)$(Configuration)\assets\"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -135,7 +150,7 @@
     <ClInclude Include="TestGame.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Umi.cpp" />
+    <ClCompile Include="Sample.cpp" />
     <ClCompile Include="TestGame.cpp" />
   </ItemGroup>
   <ItemGroup>

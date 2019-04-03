@@ -255,7 +255,7 @@ void Game::Render()
 
 	//BLUR
 	bool horizontal = true, first_iteration = true;
-	unsigned int amount = 50;
+	unsigned int amount = 5;
 	ResourceManager::GetShader("blur")->Use();
 	for (unsigned int i = 0; i < amount; i++)
 	{
